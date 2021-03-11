@@ -1,27 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
-	<templates>
-		<template>
-			<id>99a9cf0c-6b60-4c68-80eb-04a8d9b6c4d8</id>
-			<revisionId>99a9cf0c-6b60-4c68-80eb-04a8d9b6c4d8</revisionId>
-			<name>T1</name>
-			<description></description>
-			<isTemplate>true</isTemplate>
-			<type>DEVICE</type>
-			<interfaceType>ORCHESTRATION</interfaceType>
-			<utilizationType>SHARED</utilizationType>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isCustomReservationTime>false</isCustomReservationTime>
-			<icon/>
-			<defaultImageAttach/>
-			<defaultConfigAttach/>
-			<nestedTemplates>
-				<nestedTemplate>
-					<id>bd2a02e3-6693-4328-884d-c9f80e89bae7</id>
-				</nestedTemplate>
-			</nestedTemplates>
-		</template>
-	</templates>
 	<orchestratedResources>
 		<orchestratedResource>
 			<id>aa106bab-7f12-44f1-8a83-14f3713e7719</id>
