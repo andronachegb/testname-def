@@ -1,22 +1,72 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <inventory format-version="1.0">
 	<templates>
-			<template>
-			<id>a6792f0a-190d-4ca5-9459-099f4e1aa898</id>
-			<revisionId>a6792f0a-190d-4ca5-9459-099f4e1aa898</revisionId>
-			<name>T1.N-Additional</name>
-			<description>Description</description>
+		<template>
+			<id>99a9cf0c-6b60-4c68-80eb-04a8d9b6c4d8</id>
+			<revisionId>99a9cf0c-6b60-4c68-80eb-04a8d9b6c4d8</revisionId>
+			<name>T1</name>
+			<description></description>
 			<isTemplate>true</isTemplate>
-			<driverId>d0c0273c-8f6a-45f6-a232-40c115879aae</driverId>
 			<type>DEVICE</type>
 			<interfaceType>ORCHESTRATION</interfaceType>
-			<utilizationType>EXCLUSIVE</utilizationType>
+			<utilizationType>SHARED</utilizationType>
 			<reservationTime>IMMEDIATE</reservationTime>
 			<isCustomReservationTime>false</isCustomReservationTime>
-			<properties>
-			</properties>
-			<children>
-			</children>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+			<nestedTemplates>
+				<nestedTemplate>
+					<id>bd2a02e3-6693-4328-884d-c9f80e89bae7</id>
+				</nestedTemplate>
+			</nestedTemplates>
 		</template>
-		</templates>
+		<template>
+			<id>bd2a02e3-6693-4328-884d-c9f80e89bae7</id>
+			<revisionId>bd2a02e3-6693-4328-884d-c9f80e89bae7</revisionId>
+			<name>T2</name>
+			<description></description>
+			<isTemplate>true</isTemplate>
+			<type>DEVICE</type>
+			<interfaceType>ORCHESTRATION</interfaceType>
+			<utilizationType>SHARED</utilizationType>
+			<reservationTime>IMMEDIATE</reservationTime>
+			<isCustomReservationTime>false</isCustomReservationTime>
+			<icon/>
+			<defaultImageAttach/>
+			<defaultConfigAttach/>
+		</template>
+	</templates>
+	<orchestratedResources>
+		<orchestratedResource>
+			<id>aa106bab-7f12-44f1-8a83-14f3713e7719</id>
+			<type>DEVICE</type>
+			<name>T1-Orch</name>
+			<description></description>
+			<role>S2_ORCHESTRATED</role>
+			<referencedTemplateId>99a9cf0c-6b60-4c68-80eb-04a8d9b6c4d8</referencedTemplateId>
+			<visibility>PUBLIC</visibility>
+			<resourceGroup>
+				<name></name>
+			</resourceGroup>
+			<icon/>
+			<nestedResources>
+				<orchestratedResource>
+					<id>ae1f0dae-582f-44d3-96fe-24b00c14c94c</id>
+					<type>DEVICE</type>
+					<name>T2</name>
+					<description></description>
+					<role>S2_ORCHESTRATED</role>
+					<referencedTemplateId>bd2a02e3-6693-4328-884d-c9f80e89bae7</referencedTemplateId>
+					<visibility>PUBLIC</visibility>
+					<resourceGroup>
+						<name></name>
+					</resourceGroup>
+					<icon/>
+				</orchestratedResource>
+			</nestedResources>
+		</orchestratedResource>
+	</orchestratedResources>
+	<abstractResources/>
+	<topologies/>
 </inventory>
