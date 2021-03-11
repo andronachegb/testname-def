@@ -21,21 +21,6 @@
 				</nestedTemplate>
 			</nestedTemplates>
 		</template>
-		<template>
-			<id>bd2a02e3-6693-4328-884d-c9f80e89bae7</id>
-			<revisionId>bd2a02e3-6693-4328-884d-c9f80e89bae7</revisionId>
-			<name>T2</name>
-			<description></description>
-			<isTemplate>true</isTemplate>
-			<type>DEVICE</type>
-			<interfaceType>ORCHESTRATION</interfaceType>
-			<utilizationType>SHARED</utilizationType>
-			<reservationTime>IMMEDIATE</reservationTime>
-			<isCustomReservationTime>false</isCustomReservationTime>
-			<icon/>
-			<defaultImageAttach/>
-			<defaultConfigAttach/>
-		</template>
 	</templates>
 	<orchestratedResources>
 		<orchestratedResource>
