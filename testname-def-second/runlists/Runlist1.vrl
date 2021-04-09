@@ -7,15 +7,24 @@
     "detailLevel": "ALL_ISSUES_ERROR_STEPS",
     "ignoredRequirements": [],
     "parameterFilePath": null,
-    "parameters": [],
+    "parameters": [
+      {
+        "description": "desc1",
+        "masked": false,
+        "name": "param1",
+        "parameters": [],
+        "type": "TEXT",
+        "value": "123"
+      }
+    ],
     "requirements": [
       {
-        "name": "pool",
-        "value": "driver"
+        "name": "agent_name",
+        "value": "vel-alin85s.spirenteng.com"
       }
     ],
     "reservationId": null,
-    "topologyId": "bc36dc54-1f43-47a7-8a28-60de672dc317",
+    "topologyId": null,
     "topologyPath": null,
     "topologyVersionId": null
   },
@@ -26,41 +35,9 @@
         "files": [],
         "ignoredRequirements": [],
         "itemId": null,
-        "parameterFilePath": "Testcases/testname-def/library/paramFile1.ffpt",
+        "parameterFilePath": null,
         "parameters": [],
-        "path": "Testcases/testname-abc/testcases/tc1.fftc",
-        "requirements": [],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
-      },
-      {
-        "customParameterTypes": [],
-        "files": [],
-        "ignoredRequirements": [],
-        "itemId": null,
-        "parameterFilePath": "Testcases/regressionsuite-222/library/paramFile1.ffpt",
-        "parameters": [],
-        "path": "Testcases/testname-def/testcases/tc1.fftc",
-        "requirements": [],
-        "reservationId": null,
-        "testbed": null,
-        "topologyName": null,
-        "topologyId": null,
-        "topologyVersionId": null,
-        "type": "SCRIPT"
-      },
-      {
-        "customParameterTypes": [],
-        "files": [],
-        "ignoredRequirements": [],
-        "itemId": null,
-        "parameterFilePath": "Testcases/testname-abc/library/paramFile1.ffpt",
-        "parameters": [],
-        "path": "Testcases/regressionsuite-222/testcases/tc1.fftc",
+        "path": "RepoTest1/RepoTest1/test_cases/tc4.fftc",
         "requirements": [],
         "reservationId": null,
         "testbed": null,
@@ -71,6 +48,6 @@
       }
     ],
     "runMode": "SEQUENTIAL",
-    "terminateOnItemFail": false
+    "terminateOnItemFail": true
   }
 }
