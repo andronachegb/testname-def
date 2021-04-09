@@ -45,6 +45,22 @@
         "topologyId": null,
         "topologyVersionId": null,
         "type": "SCRIPT"
+      },
+      {
+        "customParameterTypes": [],
+        "files": [],
+        "ignoredRequirements": [],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [],
+        "path": "RepoTest1/RepoTest1/test_cases/testcase1.fftc",
+        "requirements": [],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
       }
     ],
     "runMode": "SEQUENTIAL",
