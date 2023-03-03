@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<TestCaseCatalog version="8.4.0.202012071239">
+<TestCaseCatalog version="9.3.0.202303020359">
     <testCaseCatalog>
         <item name="session_profiles/qcLib1.fftc">
-            <tcDescriptor version="8.4.0.202012071239">
+            <tcDescriptor version="9.3.0.202303020359">
                 <general>
-                    <sessionClass includeTestCase="true" sessionType="project://testname-def/session_profiles/REST.ffsp"/>
+                    <sessionClass includeTestCase="true" sessionType="project://testname-def-second/session_profiles/REST.ffsp"/>
                     <language>Python</language>
                 </general>
                 <procedures>

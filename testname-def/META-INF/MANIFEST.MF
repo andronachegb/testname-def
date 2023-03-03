@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
 iTest-Manifest-Version: 1.0
-iTest-Dependent-Project: "testname-abc-second","testname-def-second","Re
- poTest1"
+iTest-Dependent-Project: "testname-abc-second","testname-def-second"
 
